@@ -1,6 +1,6 @@
 Columbia University - Data Structures in Java (COMS3134) - Programming Project 4, Part 2- Fall 2020
 
-## K-Best Values - 30 points
+## K-Best Values 
 
 Find the k-best (i.e. largest) values in a set of data. Assume you are given a sequence of values, one value at a time. We do not know how many elements there are in this sequence. In fact, there could be infinitely many. Implement the class
 ```KBestCounter<T extends Comparable<? super T>> implements KBest<T>``` that keeps track of the k-largest elements seen so far in a sequence of data. The class should have two methods and a constructor:
